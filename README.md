@@ -6,7 +6,7 @@ This repository contains the Python code used for analyzing Mg II absorption fea
 
 ## 📂 Files
 
-- `sell2_annotated_final.ipynb`: The main Jupyter notebook containing all code used in the thesis, with added explanations and section headers.
+- `Thesis_code.ipynb`: The main Jupyter notebook containing all code used in the thesis, with added explanations and section headers.
 - Spectral data files (not included here) were sourced from SDSS and saved in local directories under `../data/spectra/`.
 
 ## 🧪 What the Code Does
@@ -46,7 +46,7 @@ pip install numpy matplotlib astropy specutils astroquery
 Open the notebook:
 
 ```bash
-jupyter notebook sell2_annotated_final.ipynb
+jupyter notebook Thesis_code.ipynb
 ```
 
 Make sure the spectrum files are accessible in the relative paths used inside the code (`../data/spectra/`).
